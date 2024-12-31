@@ -6,7 +6,7 @@ from bot.config import Config
 from bot import (
     APP_ID,
     API_HASH,
-    AUTH_USERS
+    AUTH_USERS,
     DOWNLOAD_LOCATION,
     LOGGER,
     TG_BOT_TOKEN,
