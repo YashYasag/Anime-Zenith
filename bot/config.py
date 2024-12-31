@@ -5,23 +5,23 @@ class Config(object):
     SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
     # AHCompressBot....
     # sucks Dude
-    APP_ID =25918874 # Updated with your API ID
-    API_HASH = "87c7c525932cf3d753bea33786ad71ee"  # Updated with your API HASH
-    LOG_CHANNEL ="RulfEncoderLogs" # Updated with your log channel ID
+    APP_ID =23713783 # Updated with your API ID
+    API_HASH = "2daa157943cb2d76d149c4de0b036a99"  # Updated with your API HASH
+    LOG_CHANNEL ="-1002217664099" # Updated with your log channel ID
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", "RulfEncoderLogs") # Without `@` LOL
     # Get these values from my.telegram.org
-    AUTH_USERS = {5179011789}
+    AUTH_USERS = {5487643307}
     # auth users jdk 
-    TG_BOT_TOKEN = "6153026190:AAGZLZky25xRlmr3iW8PNPH79fhoizlY3Hs"  # Updated with your bot token
+    TG_BOT_TOKEN = "7251113580:AAFOIpTAGHALclWZBexgNbevU_z6qyZuGnU"  # Updated with your bot token
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
-    BOT_USERNAME = "StrangeMLTB_Bot"  # Updated with your bot username
+    BOT_USERNAME = "savetszbot"  # Updated with your bot username
     MAX_FILE_SIZE = 6440253535
     TG_MAX_FILE_SIZE = 6440253535
     FREE_USER_MAX_FILE_SIZE = 6440253535
     # default thumbnail to be used in the videos
-    DEF_THUMB_NAIL_VID_S = get_config("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
+    DEF_THUMB_NAIL_VID_S = get_config("DEF_THUMB_NAIL_VID_S", "https://i.ibb.co/dPpqpdP/67178015.jpg")
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
     HTTP_PROXY = get_config("HTTP_PROXY", None)
