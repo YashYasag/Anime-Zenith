@@ -46,9 +46,9 @@ from bot.plugins.status_message_fn import (
 from bot.commands import Command
 
 sudo_users = "5487643307" 
-crf.append("28")
+crf.append("25")
 codec.append("libx264")
-resolution.append("854x480")
+resolution.append("1280x720")
 preset.append("veryfast")
 audio_b.append("40k")
 acodec.append("libopus")
