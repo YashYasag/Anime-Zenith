@@ -48,9 +48,9 @@ async def convert_video(video_file, output_directory, total_time, bot, message, 
     ##"-metadata", "title=@Anime_Sensei_Network", "-vf", "drawtext=fontfile=njnaruto.ttf:fontsize=20:fontcolor=black:x=15:y=15:text=" "Anime Sensei",
      ## -vf eq=gamma=1.4:saturation=1.4
      ## lol 😂
-    crf.append("28")
+    crf.append("25")
     codec.append("libx264")
-    resolution.append("854x480")
+    resolution.append("1280x720")
     preset.append("veryfast")
     audio_b.append("40k")
     acodec.append("libopus")
