@@ -6,6 +6,7 @@ from bot.config import Config
 from bot import (
     APP_ID,
     API_HASH,
+    AUTH_USERS
     DOWNLOAD_LOCATION,
     LOGGER,
     TG_BOT_TOKEN,
@@ -18,6 +19,7 @@ from bot import (
     audio_b,
     preset,
     codec,
+    AUTH_USERS,
     name,
     size,
     acodec,
@@ -43,7 +45,6 @@ from bot.plugins.status_message_fn import (
 
 from bot.commands import Command
 
-AUTH_USERS = "5487643307"
 sudo_users = "5487643307" 
 crf.append("28")
 codec.append("libx264")
